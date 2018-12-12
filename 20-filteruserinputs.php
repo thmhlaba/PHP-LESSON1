@@ -66,7 +66,7 @@ if(filter_var($myEmail, FILTER_VALIDATE_EMAIL)){
 }
 //URL validation
 
-$myURL= "http://sswww.   google.com";
+$myURL= "http://www.   google.com";
 $myURL= filter_var($myURL,FILTER_SANITIZE_URL);
 echo "<p>Cleaned URL: $myURL</p>";
 echo "<p>URL validation:" .filter_var($myURL,FILTER_VALIDATE_URL) ."</p>";
